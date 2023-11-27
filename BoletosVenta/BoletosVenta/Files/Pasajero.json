@@ -1,0 +1,108 @@
+{
+    "Controlador.TDA.Lista.DinamicList": {
+        "cabeza": {
+            "info": {
+                "@class": "Modelo.Pasajero",
+                "idPersona": 2,
+                "numeroCedula": 1112,
+                "NombrePersona": "alexander",
+                "ApelldoPersona": "xd",
+                "generoPersona": "Femenino",
+                "DireccionPersona": "1dsad",
+                "boletoPasajero": {
+                    "idBoleto": 2,
+                    "PaisOrigen": "Bolivia",
+                    "PaisDestino": "Bolivia",
+                    "BoletosCantidad": 5,
+                    "FechaViaje": "26-11-2023 21:35:19",
+                    "FechaCompra": "26-11-2023 21:35:19",
+                    "totalPagar": 225
+                }
+            },
+            "Siguiente": {
+                "info": {
+                    "@class": "Modelo.Pasajero",
+                    "idPersona": 2,
+                    "numeroCedula": 11,
+                    "NombrePersona": "asdasdasdasd",
+                    "ApelldoPersona": "a",
+                    "generoPersona": "Femenino",
+                    "DireccionPersona": "sdadas",
+                    "boletoPasajero": {
+                        "idBoleto": 2,
+                        "PaisOrigen": "Colombia",
+                        "PaisDestino": "Chile",
+                        "BoletosCantidad": 111,
+                        "FechaViaje": "26-11-2023 21:35:28",
+                        "FechaCompra": "26-11-2023 21:35:28",
+                        "totalPagar": 4995
+                    }
+                },
+                "Siguiente": {
+                    "info": {
+                        "@class": "Modelo.Pasajero",
+                        "idPersona": 3,
+                        "numeroCedula": 1104753890,
+                        "NombrePersona": "Alexander",
+                        "ApelldoPersona": "Sànchez",
+                        "generoPersona": "Masculino",
+                        "DireccionPersona": "Av.Los Paltas",
+                        "boletoPasajero": {
+                            "idBoleto": 2,
+                            "PaisOrigen": "Ecuador",
+                            "PaisDestino": "Bolivia",
+                            "BoletosCantidad": 3,
+                            "FechaViaje": "04\/12\/2024",
+                            "FechaCompra": "25-noviembre-2023",
+                            "totalPagar": 135
+                        }
+                    },
+                    "Siguiente": {
+                        "info": {
+                            "@class": "Modelo.Pasajero",
+                            "idPersona": 2,
+                            "numeroCedula": 1104753890,
+                            "NombrePersona": "Alexander",
+                            "ApelldoPersona": "Sànchez",
+                            "generoPersona": "Masculino",
+                            "DireccionPersona": "Av. Miraflores Alto",
+                            "boletoPasajero": {
+                                "idBoleto": 2,
+                                "PaisOrigen": "Ecuador",
+                                "PaisDestino": "Colombia",
+                                "BoletosCantidad": 4,
+                                "FechaViaje": "26-11-2023 21:35:12",
+                                "FechaCompra": "26-11-2023 21:35:12",
+                                "totalPagar": 180
+                            }
+                        },
+                        "Siguiente": {
+                            "info": {
+                                "@class": "Modelo.Pasajero",
+                                "idPersona": 2,
+                                "numeroCedula": 1104753895,
+                                "NombrePersona": "Carmen",
+                                "ApelldoPersona": "Azuero",
+                                "generoPersona": "Femenino",
+                                "DireccionPersona": "Av.Miraflores Alto",
+                                "boletoPasajero": {
+                                    "idBoleto": 2,
+                                    "PaisOrigen": "Ecuador",
+                                    "PaisDestino": "Uruguay",
+                                    "BoletosCantidad": 5,
+                                    "FechaViaje": "26-11-2023 22:26:00",
+                                    "FechaCompra": "26-11-2023 22:26:00",
+                                    "totalPagar": 225
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ultimo": {
+            "@reference": "..\/cabeza\/Siguiente\/Siguiente\/Siguiente\/Siguiente"
+        },
+        "legth": 5
+    }
+}
